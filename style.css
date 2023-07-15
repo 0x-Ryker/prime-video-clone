@@ -25,6 +25,12 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: 'Amazon Ember', sans-serif;
+  font-family: 'Amazon Ember Cd RC', sans-serif;
+  font-family: 'Amazon Ember Display', sans-serif;
+  font-family: 'Amazon Ember Duospace', sans-serif;
+  font-family: 'Amazon Ember Mono', sans-serif;
+  font-family: 'Amazon Ember V2', sans-serif;
+
 }
 
 main {
