@@ -178,17 +178,18 @@ nav {
 /* section-two */
 
 .section-two {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
   background-image: linear-gradient(to left, #000 40%, transparent 58%), url(images/section2-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: top;
   
 }
 
 .section-two-txt {
   padding: 50px 50px 100px 50px;
+
   float: right;
   
 }
@@ -256,10 +257,10 @@ footer div a {
 }
 
 @media screen and (max-width: 875px) {
-
+/* 
   .hero-section, .section-two, aside {
-    /* position: relative; */
-  }
+    position: relative;
+  } */
 
   .hero-section {
     display: flex;
@@ -349,3 +350,4 @@ footer div a {
  
 }
 
+ 
