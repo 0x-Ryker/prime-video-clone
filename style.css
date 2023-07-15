@@ -10,6 +10,7 @@
   
 }
 
+
 body {
   background-color: #000000;
   font-size: 0.9rem;
@@ -22,7 +23,7 @@ body {
   font-family: 'Amazon Ember Duospace', sans-serif;
   font-family: 'Amazon Ember Mono', sans-serif;
   font-family: 'Amazon Ember V2', sans-serif;
-
+  overflow-x: hidden;
 }
 
 main {
