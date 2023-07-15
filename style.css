@@ -286,6 +286,41 @@ footer div a {
 }
 
 @media screen and (max-width: 875px) {
+
+  .hero-section, .section-two, aside {
+    position: relative;
+  }
+
+  .hero-section {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column-reverse;
+    
+    justify-content:space-between;
+    
+    
+  }
+
+  .hero-flex-right {
+    
+  }
+
+  .hero-flex-left {
+    justify-self: flex-end;
+    position: relative;
+    z-index: 10;
+    top: 290px;
+  }
+
+ 
+  /* article */
+  article {
+    flex-direction: column;
+  }
+
+  article div p br {
+    display: none;
+  }
   
 }
 
