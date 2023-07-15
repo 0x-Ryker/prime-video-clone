@@ -1,24 +1,16 @@
-/* @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900); */
-
- @import url('https://fonts.cdnfonts.com/css/amazon-ember');
-
-                
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+              
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Inter", sans-serif;
-  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 10px 0px,
-    rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
-  --color: #166e67;
-  --gap: 0.5rem;
-  --radius: 5px; */
+  font-family: "Inter", sans-serif;
+
   
 }
 
 body {
-  /* margin: 2rem; */
   background-color: #000000;
   font-size: 0.9rem;
   color: rgb(255, 255, 255);
@@ -47,7 +39,7 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 10vw;
-  background-color: rgb(11, 2, 34);
+  background-color: #00050d;
   color: white;
 }
 
@@ -62,21 +54,19 @@ nav {
   border-radius: 100px;
   font-size: 18px;
   padding: 7px;
-  background-color: rgb(79, 80, 80);
+  background-color: rgb(21, 19, 32);
+  cursor: pointer;
 }
 
 .btn {
-  background-color: rgb(11, 2, 34);
+  background-color: #191e25;
   color: rgb(163, 163, 163);
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  column-gap: var(--gap);
   padding: 0.6rem;
   cursor: pointer;
-  border-radius: var(--radius);
   border: none;
-  box-shadow: var(--shadow);
   position: relative;
 }
 
@@ -87,10 +77,8 @@ nav {
 .dropdown {
   position: absolute;
   width: 250px;
-  box-shadow: var(--shadow);
-  border-radius: var(--radius);
   margin-top: 0.3rem;
-  background: rgb(80, 79, 79);
+  background: rgb(16, 4, 58);
 
   visibility: hidden;
   opacity: 0;
@@ -121,6 +109,15 @@ nav {
 .arrow {
   transform: rotate(180deg);
   transition: 0.2s ease;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  cursor: pointer;
 }
 
 
@@ -224,7 +221,6 @@ aside {
 
 .aside-flex-left {
   padding: 50px ;
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   
@@ -272,6 +268,11 @@ footer div a {
     
   }
 
+  .para-border {
+    width: 100%;
+  
+  }
+
   .img-all {
     width: 100%;
   }
@@ -299,17 +300,16 @@ footer div a {
     text-align: center;
   }
 
-  /* .same-width-txt {
-    min-width: 300px;
-    text-align: center;
-  } */
 
   .section-btn {
     padding: 20px;
     width: 100%;
   }
 
-  
+ .container {
+  display: none;
+ }
+
 }
 
  
